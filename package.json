@@ -2,9 +2,11 @@
   "name": "tsx-schema-markup",
   "version": "1.0.1",
   "description": "A package for adding schema markup to your tsx page",
-  "main": "index.js",
+  "main": "dist",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node generateIndex.js && npx tsc",
+    "format": "prettier -w ."
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,60 @@
+{
+  "name": "tsx-schema-markup",
+  "version": "1.0.0",
+  "description": "A package for adding schema markup to your tsx page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/grissly-man/tsx-schema-markup.git"
+  },
+  "keywords": [
+    "tsx",
+    "schema.org",
+    "structured-data",
+    "jsonld",
+    "schema",
+    "react",
+    "typescript",
+    "seo",
+    "search",
+    "markup",
+    "rich-snippets",
+    "search-enhancement",
+    "semantic-web",
+    "react-schema",
+    "schema-markup",
+    "structured-data-tsx",
+    "schema-components",
+    "semantic-markup",
+    "schema-types",
+    "nextjs",
+    "microdata",
+    "ld+json",
+    "profilepage",
+    "article",
+    "breadcrumb",
+    "webpage",
+    "mainEntity"
+  ],
+  "author": "grissly-man",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grissly-man/tsx-schema-markup/issues"
+  },
+  "homepage": "https://github.com/grissly-man/tsx-schema-markup#readme",
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "schema-dts": "^1.1.5"
+  },
+  "files": [
+    "./dist",
+    "README.md"
+  ]
+}

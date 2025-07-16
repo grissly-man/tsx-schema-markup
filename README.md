@@ -46,31 +46,31 @@ import type { Person } from "schema-dts";
 const person: Person = {
   "@type": "Person",
   name: "Jane Doe",
-  sameAs: ["https://twitter.com/janedoe"]
+  sameAs: ["https://twitter.com/janedoe"],
 };
 
 <ProfilePage
   dateCreated={new Date().toISOString()}
   dateModified={new Date().toISOString()}
   mainEntity={person}
-/>
+/>;
 ```
 
 This renders:
 
 ```html
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "dateCreated": "...",
-  "dateModified": "...",
-  "mainEntity": {
-    "@type": "Person",
-    "name": "Jane Doe",
-    "sameAs": ["https://twitter.com/janedoe"]
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "dateCreated": "...",
+    "dateModified": "...",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Jane Doe",
+      "sameAs": ["https://twitter.com/janedoe"]
+    }
   }
-}
 </script>
 ```
 
@@ -85,10 +85,10 @@ import type { Person } from "schema-dts";
 const person: Person = {
   "@type": "Person",
   name: "John Doe",
-  url: "https://example.com"
+  url: "https://example.com",
 };
 
-<StructuredMarkup thing={person} />
+<StructuredMarkup thing={person} />;
 ```
 
 ---

@@ -1,6 +1,6 @@
 {
   "name": "tsx-schema-markup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for adding schema markup to your tsx page",
   "main": "index.js",
   "scripts": {

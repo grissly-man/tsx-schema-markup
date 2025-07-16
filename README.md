@@ -40,7 +40,7 @@ yarn add tsx-schema-markup
 Use prebuilt components like `<ProfilePage />`, `<Article />`, `<Breadcrumb />`, etc., for common structured data types supported by Google.
 
 ```tsx
-import { ProfilePage } from "tsx-schema-markup";
+import { ProfilePage } from "tsx-schema-markup/dist/profile-page";
 import type { Person } from "schema-dts";
 
 const person: Person = {
@@ -79,7 +79,7 @@ This renders:
 For any valid schema.org object, use:
 
 ```tsx
-import { StructuredMarkup } from "tsx-schema-markup";
+import { StructuredMarkup } from "tsx-schema-markup/dist/structured-markup";
 import type { Person } from "schema-dts";
 
 const person: Person = {
